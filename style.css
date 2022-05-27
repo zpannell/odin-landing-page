@@ -67,13 +67,24 @@ a {
     font-size: 24px;
 }
 
-button {
+button,
+.signup-box {
     background-color: #3882F6;
     border-radius: 8px;
+}
+
+button {
     text-align: center;
     padding: 8px 24px;
-    border: none;
     font-weight: bold;
+}
+
+.sign-up-button {
+    border: none;
+}
+
+.sign-up-button-border {
+    border: 1px solid white;
 }
 
 .header {
@@ -111,6 +122,7 @@ img {
     justify-content: center;
     gap: 40px;
     flex-wrap: wrap;
+    margin: 0px 100px 75px 100px;
 }
 
 .info {
@@ -126,7 +138,7 @@ img {
 
 .info,
 .information-image {
-    max-width: 160px;
+    max-width: 130px;
 }
 
 .information-subtext {
@@ -136,4 +148,54 @@ img {
     text-align: center;
     /* max-width: 100px; */
     font-size: 18px;
+}
+
+.quote-area {
+    background-color: #E5E7EB;
+    padding: 50px 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+.quote-text {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: lighter;
+}
+
+.quote-author {
+    font-weight: bold;
+    margin-left: auto;
+}
+
+.signup-box {
+    margin: 60px 100px;
+    padding: 25px 50px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.signup-left {
+    color: white;
+}
+
+.signup-call {
+    font-weight: bold;
+    margin: 0;
+}
+
+.signup-call-subtext {
+    margin: 0;
+}
+
+.signup-right {
+    margin-left: auto;
+    flex-shrink: 0;
+}
+
+.footer {
+    text-align: center;
+    color: white;
+    padding: 20px;
 }
